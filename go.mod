@@ -1,6 +1,7 @@
 module github.com/artalkjs/artalk/v2
 
-go 1.22.7
+go 1.23.0
+
 toolchain go1.24.1
 
 require (
@@ -18,7 +19,7 @@ require (
 	github.com/fatih/color v1.17.0
 	github.com/go-testfixtures/testfixtures/v3 v3.12.0
 	github.com/goccy/go-yaml v1.12.0
-	github.com/gofiber/fiber/v2 v2.52.5
+	github.com/gofiber/fiber/v2 v2.52.9
 	github.com/gofiber/swagger v1.1.0
 	github.com/golang-jwt/jwt v3.2.2+incompatible
 	github.com/iancoleman/strcase v0.3.0
@@ -154,7 +155,7 @@ require (
 	go.uber.org/multierr v1.11.0 // indirect
 	golang.org/x/image v0.20.0 // indirect
 	golang.org/x/net v0.38.0 // indirect
-	golang.org/x/oauth2 v0.23.0 // indirect
+	golang.org/x/oauth2 v0.27.0 // indirect
 	golang.org/x/sys v0.31.0 // indirect
 	golang.org/x/tools v0.25.0 // indirect
 	golang.org/x/xerrors v0.0.0-20240903120638-7835f813f4da // indirect
